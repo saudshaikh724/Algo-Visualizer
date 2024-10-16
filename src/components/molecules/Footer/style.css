@@ -1,0 +1,36 @@
+.Footer {
+  margin-top: 2em;
+  text-align: center;
+  color:#2978b5;
+  font-weight: 600;
+}
+
+.Footer__Items {
+  flex-grow: 1;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 599px) {
+  .Footer__Items {
+    flex-flow: column;
+    padding: 0.5rem;
+  }
+}
+
+.Footer__Items * {
+  padding: 0.25rem 1rem;
+}
+
+
+
+.Footer__Link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #2978b5;;
+}
+
+.Footer__Link:hover {
+  color: var(--secondary-dark);
+}
+

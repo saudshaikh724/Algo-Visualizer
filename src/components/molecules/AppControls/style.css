@@ -1,0 +1,10 @@
+.AppControls__Size {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  font-size: 0.875rem;
+  line-height: 2.25rem;
+  font-weight: 550;
+  text-decoration: none;
+  color: var(--text-color);
+}
